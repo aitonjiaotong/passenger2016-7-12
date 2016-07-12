@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/title_bar_light</item>
+        <item name="colorPrimaryDark">@color/title_bar_light</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="title_bar_text_style">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+
+    <style name="dachezuche_gray_text">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/dachezuche_gray</item>
+    </style>
+
+    <style name="dachezuche_title_text">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/dachezuche_black</item>
+    </style>
+
+    <style name="dachezuche_sub_title_text">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/dachezuche_black</item>
+    </style>
+
+    <style name="dachezuche_normal_text">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/dachezuche_black</item>
+    </style>
+
+    <style name="dachezuche_gray_small_text">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/dachezuche_gray</item>
+    </style>
+
+    <style name="dachezuche_yellow_big_text">
+        <item name="android:textSize">19dp</item>
+        <item name="android:textColor">@color/dachezuche_yellow</item>
+    </style>
+
+    <style name="dachezuche_yellow_small_text">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/dachezuche_yellow</item>
+    </style>
+
+    <!--按钮风格-->
+    <style name="dachezuche_btn">
+        <item name="android:background">@drawable/dachezuche_button_selector_normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/normalTextSize</item>
+    </style>
+
+    <!--按钮风格-->
+    <style name="dachezuche_btn_dialog">
+        <item name="android:background">@drawable/dachezuche_button_selector_small</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/normalTextSize</item>
+    </style>
+
+    <style name="AnimFromSmallToBig">
+        <item name="android:windowEnterAnimation">@anim/magnify_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/big_to_small_fade_out</item>
+    </style>
+
+</resources>

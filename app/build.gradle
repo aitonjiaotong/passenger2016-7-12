@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "bmcx.aiton.com.passenger"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 16
+        versionName "1.1.6"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+//        classpath 'com.android.tools.build:gradle:' + gradle build tool version
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile project(':lib_shane')
+    compile project(':library_refreash')
+    compile files('libs/BaiduLBS_Android.jar')
+    compile project(':lib_slideDateTimePicker')
+    compile project(':lib_CheckBox')
+    compile(name: 'feedbackSdk', ext: 'aar')
+    //主反馈功能
+    compile files('libs/securityguard-3.1.27.jar')
+    //提供数据统计支持
+    compile files('libs/utdid4all-1.0.4.jar')
+    //提供数据统计支持
+    compile files('libs/alisdk-ut-5.jar')
+    //提供数据统计支持
+    compile files('libs/dom4j-1.6.1.jar')
+    //图片上传
+    
+
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+
+}

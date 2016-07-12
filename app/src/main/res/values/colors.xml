@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="title_bar">#ff7d27</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#dedede</color>
+    <color name="system_gray">#eeeeee</color>
+    <color name="black">#000000</color>
+    <color name="tabs_unselect">#181818</color>
+    <color name="aiton_basic_color">#ff7d27</color>
+    <color name="dachezuche_black">#222222</color>
+    <color name="dachezuche_gray">#888888</color>
+    <color name="dachezuche_yellow">#FFFE9703</color>
+    <color name="yellow_dachezuche">#fb9030</color>
+    <color name="line_background">#cccccc</color>
+    <color name="deep_gray">#c0c0c0</color>
+    <color name="red">#FF0000</color>
+    <color name="bule_light">#ff7d27</color>
+
+
+    <color name="line_gray">#d0d0d0</color>
+    <color name="line_color">#cccccc</color>
+    <color name="title_bar_deep">#FFFF5218</color>
+    <color name="title_bar_light">#ff7d27</color>
+</resources>

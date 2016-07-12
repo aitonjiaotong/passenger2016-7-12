@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects_BaMin_From_oschina\\passenger2016-6-27\\lib_slideDateTimePicker\\build\\intermediates\\res\\merged\\debug\\layout\\custom_tab.xml",
+        "source": "E:\\AndroidStudioProjects_BaMin_From_oschina\\passenger2016-6-27\\lib_slideDateTimePicker\\src\\main\\res\\layout\\custom_tab.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects_BaMin_From_oschina\\passenger2016-6-27\\lib_slideDateTimePicker\\build\\intermediates\\res\\merged\\debug\\layout\\slide_date_time_picker.xml",
+        "source": "E:\\AndroidStudioProjects_BaMin_From_oschina\\passenger2016-6-27\\lib_slideDateTimePicker\\src\\main\\res\\layout\\slide_date_time_picker.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects_BaMin_From_oschina\\passenger2016-6-27\\lib_slideDateTimePicker\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_date.xml",
+        "source": "E:\\AndroidStudioProjects_BaMin_From_oschina\\passenger2016-6-27\\lib_slideDateTimePicker\\src\\main\\res\\layout\\fragment_date.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects_BaMin_From_oschina\\passenger2016-6-27\\lib_slideDateTimePicker\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_time.xml",
+        "source": "E:\\AndroidStudioProjects_BaMin_From_oschina\\passenger2016-6-27\\lib_slideDateTimePicker\\src\\main\\res\\layout\\fragment_time.xml"
+    }
+]
